@@ -1,0 +1,59 @@
+export function Table(){
+  return(
+    <table style={{width: 600}}>
+      <caption>The networks certainty in the classification for the different numbers</caption>
+      <tr>
+        <th>Network</th>
+        <th>0</th>
+        <th>1</th>
+        <th>2</th> 
+        <th>3</th>
+        <th>4</th>
+        <th>5</th> 
+        <th>6</th>
+        <th>7</th>
+        <th>8</th> 
+        <th>9</th>
+      </tr>
+      <tr>
+        <td>FFNN</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>FFNN with dropout</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>BNN</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+    </table>
+  )
+}
